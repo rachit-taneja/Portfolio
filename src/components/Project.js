@@ -1,80 +1,6 @@
 
 const projects = [
-//   {
-//     title: 'eCard Generator',
-//     image: '/eCard.png',
-//     description: `An interactive web platform where creativity comes to life, allowing users to design heartfelt electronic greeting cards. With an easy-to-use interface, users can effortlessly create, share, and download unique eCards tailored for every special moment.`,
-//     keyfeatures: [
-//       'User-friendly eCard design interface',
-//       'Customizable templates for various occasions',
-//       'Options to share eCards via email or social media',
-//       'Downloadable eCards in multiple formats',
-//       'Responsive design for all devices',
-//     ],
-//     techStack: ['Next.js', 'Tailwind CSS', 'React+TypeScript'],
-//     detailsLink: '',
-//     githubLink: 'https://github.com/AshapuMohan/eCard',
-//   },
-//   {
-//     title: 'VehicleAid Website',
-//     image: '/miniproject.png',
-//     description: `VehicleAid is a MERN stack web application designed to assist users in finding nearby mechanics during vehicle breakdowns. The platform uses location-based services to display mechanic details such as name, phone number, and distance on an interactive map. Users can send service requests directly through the platform, and mechanics can view user details (name, contact, problem) and accept requests. All accepted histories are securely stored in MongoDB for future reference.`,
-//     keyfeatures: [
-//       'Location tracking and nearby mechanic search',
-//       'Interactive map with mechanic details',
-//       'Request/accept flow between users and mechanics',
-//       'Login system for both mechanics and users',
-//       'MongoDB integration for history tracking',
-//     ],
-//     techStack: ['React', 'Express.js', 'MongoDB', 'Tailwind CSS'],
-//     detailsLink: 'https://vehicle-aid-pi.vercel.app/userHome',
-//     githubLink: 'https://github.com/AshapuMohan/VehicleAid',
-//   },
-//   {
-//     title: 'EduMatrix Website',
-//     image: '/edumatrix.png',
-//     description: `EduMatrix is a role-based React application that allows students, teachers, and admins to engage in a structured learning platform. The system integrates external course datasets (e.g., Coursera dataset) along with teacher-uploaded videos stored in MongoDB. Students can explore predefined courses under categories like Fullstack, Cybersecurity, Data Science, and Cloud Computing, while teachers can manage and upload content. Admins oversee all user activities.`,
-//     keyfeatures: [
-//       'Role-based access (Student, Teacher, Admin)',
-//       'Predefined courses from datasets/APIs',
-//       'Teacher-uploaded videos stored in MongoDB',
-//       'Category-wise course listing and browsing',
-//       'Modern and responsive UI',
-//     ],
-//     techStack: ['React', 'Express.js', 'MongoDB', 'Tailwind CSS'],
-//     detailsLink: 'https://edu-matrix-pied.vercel.app/stu-home',
-//     githubLink: 'https://github.com/AshapuMohan/EduMatrix',
-//   },
-//   {
-//     title: 'Personal Portfolio',
-//     image: '/portfolio.png',
-//     description: `A responsive and interactive personal portfolio built using modern frontend technologies. The website showcases skills, projects, education, and contact details in a clean and professional layout. It features subtle animations, icons, and sections like Skills, Projects (with achievements & certificates), and a “Hire Me” call-to-action. It also includes SEO optimization to improve visibility.`,
-//     keyfeatures: [
-//       'SEO optimization to improve visibility',
-//       'Modern design with Tailwind CSS and React Icons',
-//       'Smooth animations with Framer Motion',
-//       'Dedicated sections for skills, projects, and education',
-//       'Responsive layout optimised for all devices',
-//     ],
-//     techStack: ['React', 'Tailwind CSS', 'Framer Motion'],
-//     detailsLink: 'https://mohanashapu.onrender.com',
-//     githubLink: 'https://github.com/AshapuMohan/MohanAshapuPortfolio',
-//   },
-//   {
-//     title: 'Linkedin UI Clone',
-//     image: '/linkedin-clone.png',
-//     description: `A frontend-only implementation of LinkedIn’s interface, showcasing the design and layout of professional networking features. Users can explore a simulated feed, profile page, and post layout. While it doesn’t include backend logic, it demonstrates strong skills in replicating real-world web applications through frontend development.`,
-//     keyfeatures: [
-//       'Responsive LinkedIn-style UI',
-//       'Simulated feed with posts and interactions',
-//       'Profile page design with user details',
-//       'Responsive design for mobile and desktop',
-//       'Interactive elements like likes and comments (frontend only)',
-//     ],
-//     techStack: ['React', 'Tailwind CSS'],
-//     detailsLink: 'https://linkedinclone-o7l9.onrender.com',
-//     githubLink: 'https://github.com/AshapuMohan/Linkedinclone',
-//   },
+
  {
     title: 'World Hive',
     image: '/worldhive.png',
@@ -87,55 +13,10 @@ const projects = [
       'Clean, modular codebase',
     ],
     techStack: ['React', 'Tailwind CSS', 'REST API'],
-    // detailsLink: 'https://worldhive2025.onrender.com',
-    // githubLink: 'https://github.com/AshapuMohan/worldhive',
+  
+    // githubLink: 'https://github.com/rachit-taneja/worldhive',
   },
-//   {
-//     title: 'CodeViz Website',
-//     image: '/CodeViz.png',
-//     description: `This project brings together design and functionality to create a developer-focused interface — blending an editor-like workspace with AI assistance and visual feedback. It’s fast, responsive, and accessible — ideal for those who want a modern, browser-based code editing experience.`,
-//     keyfeatures: [
-//       'Interactive Code Panels',
-//       'AI Code Assistant',
-//       'Responsive Design',
-//       'Command Palette',
-//       'Modern and responsive UI',
-//     ],
-//     techStack: ['Next.js', 'React+TypeScript', 'Tailwind CSS', '@ai-sdk/groq', 'clsx'],
-//     detailsLink: 'https://code-editor-visualizer.vercel.app',
-//     githubLink: 'https://github.com/AshapuMohan/CodeViz-Studio',
-//   },
-//   {
-//     title: 'Myra Voice Controlled Assist Website',
-//     image: '/myra.png',
-//     description: `Myra Voice Assistant represents a step forward in hands-free digital interaction, combining AI-driven voice recognition with a clean, accessible interface.
-// It’s designed to help users perform complex web tasks effortlessly, improve productivity, and enhance accessibility for everyone — from developers to everyday users.`,
-//     keyfeatures: [
-//       'Voice Command Recognition',
-//       'AI-Powered Assistant',
-//       'Task Automation',
-//       'Secure Authentication System',
-//       'Modern and responsive UI',
-//     ],
-//     techStack: ['Vite+React', 'Tailwind CSS', '@auth/core', 'PostgreSQL'],
-//     detailsLink: 'https://myra-voice-controller.created.app',
-//     githubLink: 'https://github.com/AshapuMohan/MYRA',
-//   },
-//   {
-//     title: 'Waste Management Website',
-//     image: '/srp.png',
-//     description: `A responsive web application focused on sustainable waste management practices. The platform educates users about recyclable and non-recyclable waste, provides detailed waste categorisation, and includes a QR code scanner for quick access to waste disposal guidelines. The system features login and signup functionality for personalised engagement and supports awareness campaigns.`,
-//     keyfeatures: [
-//       'Login/Signup system for users',
-//       'Categorisation of recyclable and non-recyclable waste',
-//       'QR code scanner for easy access to waste disposal information',
-//       'Responsive design for mobile and desktop',
-//       'Informative content to promote eco-friendly practices',
-//     ],
-//     techStack: ['HTML', 'CSS', 'JavaScript', 'Qr Scanner'],
-//     detailsLink: 'https://waste-management-six.vercel.app',
-//     githubLink: 'https://github.com/AshapuMohan/Waste-Management',
-//   }
+
 ];
 
 const Project = () => {

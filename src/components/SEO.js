@@ -12,12 +12,6 @@ const SEO = () => {
       <meta name="robots" content="index, follow" />
       <meta name="language" content="English" />
 
-      {/* Open Graph / Social Sharing
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://ashapumohanportfolio.netlify.app/" />
-      <meta property="og:title" content="Mohan Ashapu | Developer Portfolio" />
-      <meta property="og:description" content="Explore the projects, skills, and contact information of Mohan Ashapu." />
-      <meta property="og:image" content="https://ashapumohanportfolio.netlify.app/portfolio.png" /> */}
 
     </Helmet>
   );
