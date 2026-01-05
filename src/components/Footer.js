@@ -142,7 +142,7 @@ export default function Footer() {
       </div>
 
       <p className="text-center mt-8 text-sm text-gray-400">
-        Made with <i className="fa-solid fa-heart text-red-500 mx-1 animate-ping" /> by Rachit Taneja
+        Made  by Rachit Taneja
       </p>
     </footer>
   );
