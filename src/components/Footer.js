@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { Facebook, Linkedin, Github, Mail, Phone } from "lucide-react";
 
 export default function Footer() {
   const [showButton, setShowButton] = useState(false);
@@ -108,37 +109,28 @@ export default function Footer() {
           </li>
         </ul>
 
-        {/* Right: Social Links */}
-        <div className="flex justify-center md:justify-end gap-4 text-lg">
-          <a
-            href="https://www.facebook.com/profile.php?id=61583301752061"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fa-brands fa-facebook" />
-          </a>
-         
-          <a
-            href="https://www.linkedin.com/in/rachit-taneja-a88204323/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fa-brands fa-linkedin" />
-          </a>
-          <a
-            href="https://github.com/rachit-taneja"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fa-brands fa-github" />
-          </a>
-          <a href="mailto:tanejarachit111@gmail.com">
-            <i className="fa-solid fa-envelope" />
-          </a>
-          <a href="tel:+916306475332">
-            <i className="fa-solid fa-phone" />
-          </a>
-        </div>
+        <div className="flex justify-center md:justify-end gap-4">
+  <a href="https://facebook.com/profile.php?id=61583301752061" target="_blank">
+    <Facebook className="w-6 h-6 hover:text-blue-400" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/rachit-taneja-a88204323/" target="_blank">
+    <Linkedin className="w-6 h-6 hover:text-blue-400" />
+  </a>
+
+  <a href="https://github.com/rachit-taneja" target="_blank">
+    <Github className="w-6 h-6 hover:text-blue-400" />
+  </a>
+
+  <a href="mailto:tanejarachit111@gmail.com">
+    <Mail className="w-6 h-6 hover:text-blue-400" />
+  </a>
+
+  <a href="tel:+916306475332">
+    <Phone className="w-6 h-6 hover:text-blue-400" />
+  </a>
+</div>
+
       </div>
 
       <p className="text-center mt-8 text-sm text-gray-400">
