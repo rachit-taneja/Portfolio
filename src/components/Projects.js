@@ -12,11 +12,19 @@ const experience = [
 ]
 
 const projects = [
-  
+  {
+    title: 'Personal Portfolio Website',
+    image: '/Portfolio.png',
+    description: `A personal portfolio website built with React.js and Tailwind CSS to showcase my projects, skills, and experience. It features a modern design, responsive layout, and smooth animations.This was the first project I built using React.js and Tailwind CSS to showcase my skills and projects.`,
+    techStack: ['React.Js', 'Tailwind CSS', 'JavaScript'],
+    detailsLink: 'https://portfolio-blond-six-duhjhnc93v.vercel.app/',
+    githubLink: 'https://github.com/rachit-taneja/Portfolio'
+  },
    {
     title: 'TIC_TAC_TOE Game',
     image: '/Tic-Tac-Toe.png',
     description: `A classic Tic Tac Toe game built with HTML, CSS, and JavaScript. Play against a friend or the computer in this simple yet engaging game.`,
+    
     techStack: ['HTML', ' CSS', 'JavaScript'],
     detailsLink: 'https://tic-tac-toe-xi-six-11.vercel.app/',
     githubLink: 'https://github.com/rachit-taneja/tic-tac-toe'
