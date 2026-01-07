@@ -15,7 +15,7 @@ const projects = [
   
    {
     title: 'TIC_TAC_TOE Game',
-    image: '/tic-tac-toe.png',
+    image: '/Tic-Tac-Toe.png',
     description: `A classic Tic Tac Toe game built with HTML, CSS, and JavaScript. Play against a friend or the computer in this simple yet engaging game.`,
     techStack: ['HTML', ' CSS', 'JavaScript'],
     detailsLink: 'https://tic-tac-toe-xi-six-11.vercel.app/',
