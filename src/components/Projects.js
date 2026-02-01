@@ -2,11 +2,18 @@ import { FaProjectDiagram } from "react-icons/fa"
 import { motion } from "framer-motion"
 const experience = [
   {
+    simulation_name: "Backend Developer Internship",
+    company_name: "Travel Tagline",
+    year: "Feb ‘26 – April '26",
+    icon: <img src="/Travel Tagline Logo.png" alt="Travel Tagline Logo" className="w-15 h-10 rounded object-fill" />,
+    des: "Currently working as a Backend developer intern, developing server side , Node.js, Express, Postgres sql, and implementing APIs, authentication, and UI enhancements."
+  },
+  {
     simulation_name: "Full Stack Internship",
     company_name: "UptoSkills",
     year: "Sep ‘25 – Dec '25",
     icon: <img src="/uptoskills.png" alt="UptoSkills Logo" className="w-15 h-10 rounded object-fill" />,
-    des: "Currently working as a Full Stack intern, developing full-stack web applications using React, Node.js, Express, Postgres sql, and implementing APIs, authentication, and UI enhancements."
+    des: "Worked  as a Full Stack intern, developed full-stack web applications using React, Node.js, Express, Postgres sql, and implementing APIs, authentication, and UI enhancements."
   }
   
 ]
