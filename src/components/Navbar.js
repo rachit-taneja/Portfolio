@@ -128,7 +128,7 @@ function Navbar() {
               Projects
             </Link>
           </li>
-          {/* <li>
+          <li>
             <Link
               className={`nav-link transition-colors duration-300 ${scrolled ? 'hover:text-blue-600 dark:hover:text-blue-400' : 'hover:text-blue-600 dark:hover:text-blue-400'
                 }`}
@@ -137,7 +137,7 @@ function Navbar() {
             >
               Certificates
             </Link>
-          </li> */}
+          </li>
           <li>
             <span
               className={`nav-link cursor-pointer transition-colors duration-300 ${scrolled ? 'hover:text-blue-600 dark:hover:text-blue-400' : 'hover:text-blue-600 dark:hover:text-blue-400'

@@ -94,11 +94,11 @@ export default function Footer() {
               Projects
             </Link>
           </li>
-          {/* <li>
+          <li>
             <Link className="hover:text-blue-400" to="/certificates">
               Certificates
             </Link>
-          </li> */}
+          </li>
           <li>
             <span
               className="cursor-pointer hover:text-blue-400"
