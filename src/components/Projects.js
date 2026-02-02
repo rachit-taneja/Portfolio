@@ -4,7 +4,7 @@ const experience = [
   {
     simulation_name: "Backend Developer Internship",
     company_name: "Travel Tagline",
-    year: "Feb ‘26 – April '26",
+    year: "Feb ‘26 – Present",
     icon: <img src="/Travel Tagline Logo.png" alt="Travel Tagline Logo" className="w-15 h-10 rounded object-fill" />,
     des: "Currently working as a Backend developer intern, developing server side , Node.js, Express, Postgres sql, and implementing APIs, authentication, and UI enhancements."
   },
