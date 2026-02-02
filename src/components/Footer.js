@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { Facebook, Linkedin, Github, Mail, Phone } from "lucide-react";
-
+import { FaArrowUp } from "react-icons/fa";
 export default function Footer() {
   const [showButton, setShowButton] = useState(false);
   const footerRef = useRef(null);
@@ -56,7 +56,7 @@ export default function Footer() {
           className="absolute -top-6 right-5 bg-gray-600 text-white p-3 rounded-full shadow-lg cursor-pointer animate-bounce"
           style={{ width: '48px', height: '48px' }}
         >
-          <i className="fa-solid fa-arrow-up text-xl" />
+          <FaArrowUp className="text-xl" />
         </button>
       )}
 
