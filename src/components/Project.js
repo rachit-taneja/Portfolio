@@ -41,28 +41,6 @@ const projects = [
     // githubLink: 'https://github.com/rachit-taneja/worldhive',
   },
 ];
-const Item = ({ icon, title, subtitle, date, des }) => (
-  <motion.div
-    className="bg-white dark:bg-zinc-800 border border-blue-200 dark:border-blue-900 rounded-xl p-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-6 shadow-sm cursor-pointer text-black dark:text-white transition-colors duration-300"
-  >
-    <div className="flex flex-col items-center text-center md:flex-row md:items-start md:text-left gap-8">
-      <span>
-        {icon}
-      </span>
-      <div>
-        <p className="text-xl font-bold text-gray-900 dark:text-white">{title}</p>
-        <p className="text-blue-500 dark:text-blue-400 font-semibold">{subtitle}</p>
-        <p className="mt-2 text-gray-700 dark:text-gray-300">{des}</p>
-      </div>
-    </div>
-    <div className="text-right whitespace-nowrap">
-      <p className="flex items-center text-gray-600 dark:text-gray-400 text-sm">
-        {date}
-      </p>
-    </div>
-
-  </motion.div>
-)
 
 const Project = () => {
   return (

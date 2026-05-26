@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGraduationCap, FaUniversity, FaEnvelope, FaDownload } from "react-icons/fa";
+import { FaGraduationCap,  FaEnvelope, FaDownload } from "react-icons/fa";
 import { motion } from "framer-motion";
 const educationData = [
   {
