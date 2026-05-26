@@ -5,8 +5,7 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaGitAlt,
-  FaJava,
-  FaBootstrap
+  
 } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa6'
 import {
@@ -14,7 +13,6 @@ import {
   SiMongodb,
   SiJavascript,
   SiExpress,
-  SiPython,
   SiMysql
 } from 'react-icons/si'
 

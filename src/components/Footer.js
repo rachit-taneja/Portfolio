@@ -110,15 +110,15 @@ export default function Footer() {
         </ul>
 
         <div className="flex justify-center md:justify-end gap-4">
-  <a href="https://facebook.com/profile.php?id=61583301752061" target="_blank">
+  <a href="https://facebook.com/profile.php?id=61583301752061" target="_blank" rel="noreferrer">
     <Facebook className="w-6 h-6 hover:text-blue-400" />
   </a>
 
-  <a href="https://www.linkedin.com/in/rachit-taneja-a88204323/" target="_blank">
+  <a href="https://www.linkedin.com/in/rachit-taneja-a88204323/" target="_blank" rel="noreferrer">
     <Linkedin className="w-6 h-6 hover:text-blue-400" />
   </a>
 
-  <a href="https://github.com/rachit-taneja" target="_blank">
+  <a href="https://github.com/rachit-taneja" target="_blank" rel="noreferrer">
     <Github className="w-6 h-6 hover:text-blue-400" />
   </a>
 
