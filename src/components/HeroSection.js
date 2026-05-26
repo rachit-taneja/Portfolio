@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Twitter, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 export default function HeroSection() {
