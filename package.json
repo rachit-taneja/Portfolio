@@ -35,8 +35,8 @@
     ]
   },
   "engines": {
-    "node": "22.20.0"
-  },
+  "node": "22.x"
+},
   "browserslist": {
     "production": [
       ">0.2%",
