@@ -20,6 +20,22 @@ const experience = [
 
 const projects = [
   {
+    title: 'Real-Time Chat Application',
+    image: '/Portfolio.png',
+    description: `A personal portfolio website built with React.js and Tailwind CSS to showcase my projects, skills, and experience. It features a modern design, responsive layout, and smooth animations.This was the first project I built using React.js and Tailwind CSS to showcase my skills and projects.`,
+    techStack: ['React.Js', 'Tailwind CSS', 'JavaScript'],
+    detailsLink: 'https://portfolio-blond-six-duhjhnc93v.vercel.app/',
+    githubLink: 'https://github.com/rachit-taneja/Portfolio'
+  },
+  {
+    title: 'ChatBot Application',
+    image: '/Portfolio.png',
+    description: `A personal portfolio website built with React.js and Tailwind CSS to showcase my projects, skills, and experience. It features a modern design, responsive layout, and smooth animations.This was the first project I built using React.js and Tailwind CSS to showcase my skills and projects.`,
+    techStack: ['React.Js', 'Tailwind CSS', 'JavaScript'],
+    detailsLink: 'https://portfolio-blond-six-duhjhnc93v.vercel.app/',
+    githubLink: 'https://github.com/rachit-taneja/Portfolio'
+  },
+  {
     title: 'Personal Portfolio Website',
     image: '/Portfolio.png',
     description: `A personal portfolio website built with React.js and Tailwind CSS to showcase my projects, skills, and experience. It features a modern design, responsive layout, and smooth animations.This was the first project I built using React.js and Tailwind CSS to showcase my skills and projects.`,
