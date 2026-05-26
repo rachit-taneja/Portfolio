@@ -82,7 +82,7 @@ const Contact = () => {
         </motion.div>
         <div id="contacting" className=" flex flex-wrap justify-center gap-5">
           <a
-            href="/Rachit Taneja pic resume.pdf"
+            href="/Rachit resume sd.pdf"
             className="flex px-8 lg:py-3 py-3 items-center rounded-full font-semibold bg-black dark:bg-white text-white dark:text-black cursor-pointer hover:scale-105 transition-transform shadow-xl"
             download
           >
