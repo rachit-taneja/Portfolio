@@ -86,7 +86,7 @@ function Navbar() {
 
   return (
     <div
-      className={`fixed top-0 left-0 right-0 z-100 lg:mx-[135px] mt-5 px-4 sm:px-10 rounded-full transition-all duration-500 ${scrolled
+      className={`fixed top-0 left-0 right-0 z-50 lg:mx-[135px] mt-5 px-4 sm:px-10 rounded-full transition-all duration-500 ${scrolled
           ? 'bg-black/15 dark:bg-white/15 backdrop-blur-md shadow-lg text-gray-900 dark:text-white'
           : 'bg-transparent text-gray-900 dark:text-white'
         }`}
