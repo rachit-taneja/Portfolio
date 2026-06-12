@@ -68,7 +68,7 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-1 flex items-center gap-2">
             <i className="fa fa-code text-blue-400" /> Rachit Taneja
           </h3>
-          <p className="text-sm text-gray-300">© 2025 All Rights Reserved</p>
+          <p className="text-sm text-gray-300">© 2026 All Rights Reserved</p>
         </div>
 
         {/* Center: Nav */}
