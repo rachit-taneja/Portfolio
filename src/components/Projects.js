@@ -20,7 +20,7 @@ const experience = [
 
 const projects = [
   {
-    title: 'Real-Time Chat Application',
+    title: 'Real-Time Chat Application (In PROGRESS)',
     image: '/Chatbotpic.png',
     description: `A real-time chat application built using React.js, Node.js, Express.js, and Socket.IO, enabling instant messaging between users. The application features live message updates, responsive user interface, conversation management, and seamless communication without page refreshes. This project helped me strengthen my understanding of real-time web technologies, client-server communication, event-driven programming, and full-stack application development.`,
     techStack: ['React.Js', 'MongoDB', 'Node.js', 'Express.js'],
@@ -138,9 +138,9 @@ const Projects = () => {
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="ml-4 tech-stack-item text-black hover:text-gray-700 transition"
+                    className="px-3 bg-black text-white py-1 rounded-full text-sm font-medium transition hover:bg-gray-800"
                   >
-                    <i className="fa-brands fa-github text-2xl"></i>
+                    GitHUB <i className="fa-solid fa-up-right-from-square ml-1 "></i>
                   </a>
                 </div>
               </div>

@@ -2,6 +2,22 @@ import { FaProjectDiagram } from "react-icons/fa"
 // import { motion } from "framer-motion"
 const projects = [
   {
+    title: 'Real-Time Chat Application (In PROGRESS)',
+    image: '/Chatbotpic.png',
+    description: `A real-time chat application built using React.js, Node.js, Express.js, and Socket.IO, enabling instant messaging between users. The application features live message updates, responsive user interface, conversation management, and seamless communication without page refreshes. This project helped me strengthen my understanding of real-time web technologies, client-server communication, event-driven programming, and full-stack application development.`,
+    techStack: ['React.Js', 'MongoDB', 'Node.js', 'Express.js'],
+    detailsLink: 'https://portfolio-blond-six-duhjhnc93v.vercel.app/',
+    githubLink: 'https://github.com/rachit-taneja/GUP-SHUP'
+  },
+  {
+    title: 'ChatBot Application',
+    image: '/Chatbotpic.png',
+    description: `A full-stack AI ChatBot application built using React.js, Node.js, Express.js, and MongoDB. The application features a modern and responsive chat interface, real-time message handling, conversation history management, and seamless API integration. It is deployed using Vercel for the frontend and Render for the backend, with MongoDB Atlas for cloud database storage. This project helped me gain hands-on experience in full-stack development, REST APIs, database integration, deployment, environment configuration, and resolving real-world challenges such as CORS and cloud hosting.`,
+    techStack: ['React.Js', 'MongoDB', 'Node.js', 'Express.js'],
+    detailsLink: 'https://chatbot-application-five.vercel.app/',
+    githubLink: 'https://github.com/rachit-taneja/Chatbot-Application'
+  },
+  {
     title: 'Personal Portfolio Website',
     image: '/Portfolio.png',
     description: `A personal portfolio website built with React.js and Tailwind CSS to showcase my projects, skills, and experience. It features a modern design, responsive layout, and smooth animations.This was the first project I built using React.js and Tailwind CSS to showcase my skills and projects.`,
@@ -92,13 +108,14 @@ const Project = () => {
                   >
                     Live <i className="fa-solid fa-up-right-from-square ml-1"></i>
                   </a>
+
                   <a
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="ml-4 tech-stack-item text-black hover:text-gray-700 transition"
+                    className="px-3 bg-black text-white py-1 rounded-full text-sm font-medium transition hover:bg-gray-800"
                   >
-                    <i className="fa-brands fa-github text-2xl"></i>
+                    GitHUB <i className=" "></i>
                   </a>
                 </div>
               </div>
