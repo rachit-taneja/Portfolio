@@ -35,13 +35,6 @@ const projects = [
     githubLink: 'https://github.com/rachit-taneja/tic-tac-toe'
   },
     {
-    title: 'AMAZON CLONE',
-    image: '/AmazonClone.png',
-    description: `A  Amazon clone built with HTML, CSS. Features include product listings, cart functionality, and a user-friendly interface. It was built as a beginning of my web development journey.`,
-    techStack: ['HTML', ' CSS', 'JavaScript'],
-    detailsLink: 'https://rachit-taneja.github.io/Amazon-clone/',
-    githubLink: 'https://github.com/rachit-taneja/Amazon-clone'
-  },{
     title: 'World Hive',
     image: '/worldhive.png',
     description: `WorldHive is a concept-based frontend website that serves as a creative platform design. It focuses on UI/UX, delivering a modern and visually engaging interface. Built with responsive layouts and animations, it highlights your ability to create aesthetic and functional frontend applications.`,

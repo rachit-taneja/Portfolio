@@ -51,15 +51,16 @@ const projects = [
     techStack: ['HTML', ' CSS', 'JavaScript'],
     detailsLink: 'https://tic-tac-toe-xi-six-11.vercel.app/',
     githubLink: 'https://github.com/rachit-taneja/tic-tac-toe'
-  },
-    {
-    title: 'AMAZON CLONE',
-    image: '/AmazonClone.png',
-    description: `A  Amazon clone built with HTML, CSS. Features include product listings, cart functionality, and a user-friendly interface. It was built as a beginning of my web development journey.`,
-    techStack: ['HTML', ' CSS', 'JavaScript'],
-    detailsLink: 'https://rachit-taneja.github.io/Amazon-clone/',
-    githubLink: 'https://github.com/rachit-taneja/Amazon-clone'
-  },
+  }
+  ,
+  //   {
+  //   title: 'AMAZON CLONE',
+  //   image: '/AmazonClone.png',
+  //   description: `A  Amazon clone built with HTML, CSS. Features include product listings, cart functionality, and a user-friendly interface. It was built as a beginning of my web development journey.`,
+  //   techStack: ['HTML', ' CSS', 'JavaScript'],
+  //   detailsLink: 'https://rachit-taneja.github.io/Amazon-clone/',
+  //   githubLink: 'https://github.com/rachit-taneja/Amazon-clone'
+  // },
 ];
 const Item = ({ icon, title, subtitle, date, des }) => (
   <motion.div
