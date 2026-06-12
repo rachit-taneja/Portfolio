@@ -6,13 +6,27 @@ import { FaCertificate } from "react-icons/fa";
 const Certificates = () => {
     const [selectedCert, setSelectedCert] = useState(null);
     const certificates = [
-        // {
-        //     id: 1,
-        //     cert_name: "Web design Course",
-        //     cert_brand: "IBM SkillBuild",
-        //     cert_pdf: "/certificates/WebDesign-IBM.pdf",
-        //     cert_issdate: "April 2nd, 2025"
-        // },
+        {
+            id: 1,
+            cert_name: "NOSQL Databases Course",
+            cert_brand: "IBM SkillBuild",
+            cert_pdf: "/IBM_NOSQL_DBAAS_101.pdf",
+            cert_issdate: "October 9th, 2024"
+        },
+       {
+            id: 2,
+            cert_name: "IBM Cognos Analytics Course",
+            cert_brand: "IBM SkillBuild",
+            cert_pdf: "/IBM_Cognos_Analytics_V11_1_x_Reporting_Essentials_Badge20240926-7-drlco0.pdf",
+            cert_issdate: "September 26th, 2024"
+        },
+       {
+            id: 3,
+            cert_name: "Internship Completion Certificate",
+            cert_brand: "Uptoskills",
+            cert_pdf: "/Uptoskills.pdf",
+            cert_issdate: "December 30th, 2025"
+        },
        
     ];
 
