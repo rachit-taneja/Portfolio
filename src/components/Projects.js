@@ -21,9 +21,9 @@ const experience = [
 const projects = [
   {
     title: 'Real-Time Chat Application (In PROGRESS)',
-    image: '',
+    image: '/GUP-SHUP.png',
     description: `A real-time chat application built using React.js, Node.js, Express.js, and Socket.IO, enabling instant messaging between users. The application features live message updates, responsive user interface, conversation management, and seamless communication without page refreshes. This project helped me strengthen my understanding of real-time web technologies, client-server communication, event-driven programming, and full-stack application development.`,
-    techStack: ['React.Js', 'MongoDB', 'Node.js', 'Express.js'],
+    techStack: ['React.Js', 'MongoDB', 'Node.js', 'Express.js' ,'Socket.IO'],
     // detailsLink: '',
     githubLink: 'https://github.com/rachit-taneja/GUP-SHUP'
   },
