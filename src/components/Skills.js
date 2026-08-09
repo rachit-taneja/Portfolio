@@ -14,6 +14,7 @@ import {
   SiJavascript,
   SiExpress,
   SiMysql
+  
 } from 'react-icons/si'
 
 const skills = [
@@ -24,13 +25,13 @@ const skills = [
   { icon: <FaReact className="text-blue-500 w-7 h-7" />, label: 'React' },
   { icon: <FaGithub className=' w-7 h-7 text-zinc-500' />, label: 'GitHub'},
   { icon: <FaGitAlt className="text-orange-500 w-7 h-7" />, label: 'Git' },
-  // { icon: <SiPython className="text-yellow-500 w-7 h-7" />, label: 'Python' },
+  { icon: <SiPython className="text-yellow-500 w-7 h-7" />, label: 'Python' },
   // { icon: <FaBootstrap className="text-purple-600 w-7 h-7" />, label: 'Bootstrap' },
   { icon: <FaNodeJs className="text-green-600 w-7 h-7" />, label: 'Node.js' },
   { icon: <SiExpress className=' w-7 h-7 text-zinc-600'/>, label: 'Express.js' },
   { icon: <SiMongodb className="text-green-700 w-7 h-7" />, label: 'MongoDB' },
   { icon: <SiMysql className="w-7 h-7 text-blue-400" />, label: 'SQL' },
-  // { icon: <FaJava className="text-red-600 w-7 h-7" />, label: 'Java' },
+  
 ]
 
 export default function Skills() {
